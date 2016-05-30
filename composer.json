@@ -1,17 +1,16 @@
 {
-  "name": "cybercog/yii2-google-analytics",
-  "description": "Google Analytics extension for the Yii2 framework",
+  "name": "thiagotalma/yii2-hotjar",
+  "description": "Hotjar extension for the Yii2 framework",
   "keywords": [
     "yii2",
-    "google",
-    "analytics"
+    "hotjar"
   ],
   "type": "yii2-extension",
   "license": "BSD-3-Clause",
   "authors": [
     {
-      "name": "Anton Komarev",
-      "email": "ell@cybercog.su"
+      "name": "Thiago Talma",
+      "email": "thiago@thiagomt.com"
     }
   ],
   "require": {
@@ -19,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "cybercog\\yii\\googleanalytics\\": "src"
+      "talma\\hotjar\\": "src"
     }
   }
 }
